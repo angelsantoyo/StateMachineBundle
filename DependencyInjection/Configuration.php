@@ -39,6 +39,7 @@ class Configuration implements ConfigurationInterface
         $configNode
             ->scalarNode('class')->isRequired()->end()
             ->scalarNode('graph')->defaultValue('default')->end()
+            ->booleanNode('recursion')->defaultValue(false)->end()
             ->scalarNode('property_path')->defaultValue('state')->end()
             ->scalarNode('state_machine_class')->defaultValue('SM\\StateMachine\\StateMachine')->end()
         ;
@@ -79,6 +80,7 @@ class Configuration implements ConfigurationInterface
                             ->prototype('scalar')->end()
                         ->end()
                         ->scalarNode('to')->end()
+                        ->booleanNode('stop_after_apply')->defaultValue(false)->end()
                     ->end()
                 ->end()
             ->end()
