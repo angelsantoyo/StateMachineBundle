@@ -13,6 +13,6 @@ namespace gaia_winzou\Bundle\StateMachineBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class winzouStateMachineBundle extends Bundle
+class gaiawinzouStateMachineBundle extends Bundle
 {
 }
