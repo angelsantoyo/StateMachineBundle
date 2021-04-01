@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace winzou\Bundle\StateMachineBundle\DependencyInjection;
+namespace gaia_winzou\Bundle\StateMachineBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace winzou\Bundle\StateMachineBundle\Callback;
+namespace gaia_winzou\Bundle\StateMachineBundle\Callback;
 
 use SM\Callback\Callback;
 use SM\Event\TransitionEvent;

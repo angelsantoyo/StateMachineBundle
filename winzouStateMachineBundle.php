@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace winzou\Bundle\StateMachineBundle;
+namespace gaia_winzou\Bundle\StateMachineBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

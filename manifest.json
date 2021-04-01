@@ -1,5 +1,5 @@
 {
   "bundles": {
-    "winzou\\Bundle\\StateMachineBundle\\winzouStateMachineBundle": ["all"]
+    "gaia_winzou\\Bundle\\StateMachineBundle\\winzouStateMachineBundle": ["all"]
   }
 }

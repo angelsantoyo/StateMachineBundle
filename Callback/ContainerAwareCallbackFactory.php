@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace winzou\Bundle\StateMachineBundle\Callback;
+namespace gaia_winzou\Bundle\StateMachineBundle\Callback;
 
 use SM\SMException;
 use SM\Callback\CallbackFactory;

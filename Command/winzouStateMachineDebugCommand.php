@@ -1,6 +1,6 @@
 <?php
 
-namespace winzou\Bundle\StateMachineBundle\Command;
+namespace gaia_winzou\Bundle\StateMachineBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\TableSeparator;
